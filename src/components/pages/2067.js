@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
 import './videoapp.css';
+import './Controls.json';
+
 
 
  
@@ -55,7 +57,7 @@ class A2067 extends Component {
                     poster={this.state.video.poster}
                     aspectRatio= "4:3"  
                     width="720px" 
-                    height="auto"               
+                    height="auto"             
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
