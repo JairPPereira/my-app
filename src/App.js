@@ -89,6 +89,7 @@ import Ummotoristaemapuros from './components/pages/Ummotoristaemapuros';
 import Umnegocioderisco from './components/pages/Umnegocioderisco';
 import Umpobretaoncsb from './components/pages/Umpobretaoncsb';
 import Ascensaoeqdui from './components/pages/Ascensaoeqdui';
+import Aprincesa from './components/pages/Aprincesa';
 
 
 
@@ -184,6 +185,7 @@ function App() {
         <Route path='/umnegocioderisco' component={Umnegocioderisco} />
         <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
         <Route path='/ascensaoeqdui' component={Ascensaoeqdui} />
+        <Route path='/aprincesa' component={Aprincesa} />
 
 
         

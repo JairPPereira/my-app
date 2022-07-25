@@ -36,6 +36,8 @@ export default function Acao() {
       <p><br /></p>
       <Link to="./Anovaondadoimperador">A nova onda do imperador</Link>
       <p><br /></p>
+      <Link to="./Aprincesa">A Princesa</Link>
+      <p><br /></p>
       <Link to="./Aqualquerpreco">A qualquer preço</Link>
       <p><br /></p>
       <Link to="./Ascensaoeqdui">Ascensão e queda de um império</Link>
