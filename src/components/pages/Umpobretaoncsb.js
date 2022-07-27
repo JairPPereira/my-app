@@ -8,7 +8,7 @@ class Umpobretaoncsb extends Component {
     player = {}
     state = {
         video: {
-            src: "https://siloh.pluto.tv/c6009f_pluto/clip/600ae7fb2816a5001aa145cc_HEAD_OF_STATE_BR/720p/20210122_065803/hls/0-end/master.m3u8",
+            src: "https://play.prod.gcp.vix.services/crossing-point_pt/crossing-point_pt_1-1/play_v1_hls_234p.m3u8",
 
             poster: ""
         }
@@ -68,7 +68,7 @@ class Umpobretaoncsb extends Component {
       <Link to="/">Home</Link>
 
 <p><br /></p>
-
+<p>teste vix</p>
       </nav></div></div>
             
         );
