@@ -8,7 +8,7 @@ class Umpobretaoncsb extends Component {
     player = {}
     state = {
         video: {
-            src: "https://play.prod.gcp.vix.services/crossing-point_pt/crossing-point_pt_1-1/play_v1_hls_234p.m3u8",
+            src: "https://www.netmovies.com.br/818d83d6-1589-44bc-8db8-cf44532ce8fa",
 
             poster: ""
         }
