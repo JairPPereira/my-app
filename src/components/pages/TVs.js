@@ -21,6 +21,8 @@ export default function TVs() {
       <Link to="./Recordnews">Recordnews</Link>
       <p><br /></p>
       <Link to="./Sbt">Sbt</Link>
+      <p><br /></p>
+      <a href="http://www.jpwebtv.epizy.com/graopara/" target="_blank" rel="noopener noreferrer">CNN Brasil</a>
       
 
      
