@@ -10,9 +10,16 @@ export default function Daaz() {
 
         <nav>
       <p><br /></p>
-      <Link to="./2067">2067</Link>
-      <p><br /></p>
-      <Link to="./Acasadomedo">A casa do medo</Link>
+      <p class="barNav">
+      <Link to="./2067"><img
+            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg"
+            alt="2067"
+          /></Link>
+
+      <Link to="./Acasadomedo"><img
+            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7YodT3HO0FqM0csMY1otG01U6oE.jpg"
+            alt="A casa do medo"
+          /></Link></p>
       <p><br /></p>
       <Link to="./Acertodecontas">Acerto de contas</Link>
       <p><br /></p>
