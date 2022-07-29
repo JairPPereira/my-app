@@ -90,6 +90,7 @@ import Umnegocioderisco from './components/pages/Umnegocioderisco';
 import Umpobretaoncsb from './components/pages/Umpobretaoncsb';
 import Ascensaoeqdui from './components/pages/Ascensaoeqdui';
 import Aprincesa from './components/pages/Aprincesa';
+import I2067inf from './components/pages/I2067inf';
 
 
 
@@ -186,6 +187,7 @@ function App() {
         <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
         <Route path='/ascensaoeqdui' component={Ascensaoeqdui} />
         <Route path='/aprincesa' component={Aprincesa} />
+        <Route path='/i2067inf' component={I2067inf} />
 
 
         

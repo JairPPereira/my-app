@@ -11,7 +11,7 @@ export default function Daaz() {
         <nav>
       <p><br /></p>
       <p class="barNav">
-      <Link to="./2067"><img
+      <Link to="./I2067inf"><img
             src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg"
             alt="2067"
           /></Link>
