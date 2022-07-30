@@ -17,11 +17,7 @@ export default function Daaz() {
             alt="2067"
           /></Link>
 
-      <Link to="./Acasadomedo">
-      <img
-            src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j7p3JKIAwysHpZsmdINLNeVjApg.jpg"
-            alt="A casa do medo"
-          /></Link>
+
 
       <Link to="./Acertodecontas">
       <img
