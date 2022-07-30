@@ -1,77 +1,35 @@
-import React, { Component } from 'react';
-import VideoPlayer from 'react-video-js-player';
-import { Link } from 'react-router-dom';
-import './videoapp.css';
+import React from 'react';
+import '../../App.css';
+import {Link } from "react-router-dom";
 
- 
-class VideoApp5 extends Component {
-    player = {}
-    state = {
-        video: {
-            src: "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1210d14ae1f80007bafb1d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1",
+export default function Drama() {
 
-            poster: "https://1.bp.blogspot.com/-ulHepfItHmQ/YUfgrKGDENI/AAAAAAAABIA/aOgpT5PNUGAw2bWg_dMlx19GH1YkA4o6wCLcBGAsYHQ/s215/plutotv200.jpg"
-        }
-    }
- 
-    onPlayerReady(player){
-        console.log("Player is ready: ", player);
-        this.player = player;
-    }
- 
-    onVideoPlay(duration){
-        console.log("Video played at: ", duration);
-    }
- 
-    onVideoPause(duration){
-        console.log("Video paused at: ", duration);
-    }
- 
-    onVideoTimeUpdate(duration){
-        console.log("Time updated: ", duration);
-    }
- 
-    onVideoSeeking(duration){
-        console.log("Video seeking: ", duration);
-    }
- 
-    onVideoSeeked(from, to){
-        console.log(`Video seeked from ${from} to ${to}`);
-    }
- 
-    onVideoEnd(){
-        console.log("Video ended");
-    }
- 
-    render() {
-        return (
-            <div>
-                      <p><br /></p>
-                <VideoPlayer
-                    controls={true}
-                    src={this.state.video.src}
-                    poster={this.state.video.poster}
-                    width="320px" 
-                    height="380px"
-                    onReady={this.onPlayerReady.bind(this)}
-                    onPlay={this.onVideoPlay.bind(this)}
-                    onPause={this.onVideoPause.bind(this)}
-                    onTimeUpdate={this.onVideoTimeUpdate.bind(this)}
-                    onSeeking={this.onVideoSeeking.bind(this)}
-                    onSeeked={this.onVideoSeeked.bind(this)}
-                    onEnd={this.onVideoEnd.bind(this)}
-                />
-                    <p><br /></p> 
-               <div className="nave">
-      <nav>
+  return (
+    <>
+      <h1 className='comedia'>
+
+        <nav>
       <p><br /></p>
-      <Link to="/">Home</Link>
+      <Link to="./Kv1">Kv1 - Almas de ferro</Link>
+      <p><br /></p>
+      <Link to="./Finch">Finch</Link>
+      <p><br /></p>
+      <Link to="./Fudingyou">Funding you</Link>
+      <p><br /></p>
+      <Link to="./Ocomitedd">O comitê de Deus</Link>
+      <p><br /></p>
+      <Link to="./Osorrisodelaura">O sorriso de Laura</Link>
+      <p><br /></p>
 
-<p><br /></p>
 
-      </nav></div></div>
-            
-        );
-    }
+
+     
+      </nav></h1>
+
+    </>
+        
+        
+         
+  );
 }
-export default  VideoApp5;
+

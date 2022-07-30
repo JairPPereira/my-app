@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Acasadomedo extends Component {
+class Aslaminasdje extends Component {
     player = {}
     state = {
         video: {
-            src: "https://video.wixstatic.com/video/e16db6_70370f1bafc94a95b05bcbe94f932163/720p/mp4/file.mp4",
+            src: "https://siloh.pluto.tv/824_Indigenius/clip/62605c68228ab000133ef78c_As_Laminas_de_Jack_o_Estripador_BR/720p/20220420_141746/hls/0-end/master.m3u8",
 
             poster: ""
         }
@@ -51,7 +51,6 @@ class Acasadomedo extends Component {
                     controls={true}
                     src={this.state.video.src}
                     poster={this.state.video.poster}
-                    aspectRatio= "4:3"
                     width="720px" 
                     height="auto"
                     onReady={this.onPlayerReady.bind(this)}
@@ -75,4 +74,4 @@ class Acasadomedo extends Component {
         );
     }
 }
-export default Acasadomedo;
+export default Aslaminasdje;

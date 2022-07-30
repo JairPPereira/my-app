@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
 import { Link } from 'react-router-dom';
 import './videoapp.css';
-import './Controls.json';
-
-
 
  
 class A2067 extends Component {
@@ -57,7 +54,7 @@ class A2067 extends Component {
                     poster={this.state.video.poster}
                     aspectRatio= "4:3"  
                     width="720px" 
-                    height="auto"             
+                    height="auto"               
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}
                     onPause={this.onVideoPause.bind(this)}
@@ -74,7 +71,14 @@ class A2067 extends Component {
 
 <p><br /></p>
 
-      </nav></div></div>
+      </nav></div>
+      <iframe
+      src="https://www.themoviedb.org/movie/528085-2067?language=pt-BR"
+      frameborder="0"
+      width="100%" height="480px"
+
+      title="video"
+    />{" "}</div>
             
         );
     }

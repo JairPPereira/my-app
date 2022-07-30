@@ -40,7 +40,7 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/Daaz' className='nav-links' onClick={closeMobileMenu}>
-              De A a Z
+              Filmes de A a Z
             </Link>
           </li>
           <li
@@ -53,11 +53,19 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Por Categoria <i className='fas fa-caret-down' />
+              Filmes Por Categoria<i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
+          <li>
+            <Link
+              to='/series'
+              className='nav-links-mobile'
+              onClick={closeMobileMenu}
+            >Series
+            </Link>
+          </li>
             <Link
               to='/tvs'
               className='nav-links'

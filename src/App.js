@@ -89,7 +89,68 @@ import Ummotoristaemapuros from './components/pages/Ummotoristaemapuros';
 import Umnegocioderisco from './components/pages/Umnegocioderisco';
 import Umpobretaoncsb from './components/pages/Umpobretaoncsb';
 import Ascensaoeqdui from './components/pages/Ascensaoeqdui';
-import Aprincesa from './components/pages/Aprincesa';
+import Homemaranha2 from './components/pages/Homemaranha2';
+import Supermurali from './components/pages/Supermurali';
+import Terror from './components/pages/Terror';
+import Suspense from './components/pages/Suspense';
+import Stretfp from './components/pages/Stretfp';
+import Codinome7 from './components/pages/Codinome7';
+import Umjovememapuros from './components/pages/Umjovememapuros';
+import Tudopraficarcomela from './components/pages/Tudopraficarcomela';
+import Odoadordememorias from './components/pages/Odoadordememorias';
+import Atumbadodiabo from './components/pages/Atumbadodiabo';
+import Jogandocomoamor from './components/pages/Jogandocomoamor';
+import Loucamenteapaixonados from './components/pages/Loucamenteapaixonados';
+import Cadaveresardm from './components/pages/Cadaveresardm';
+import Agentesduplos from './components/pages/Agentesduplos';
+import Aslaminasdje from './components/pages/Aslaminasdje';
+import Ogritodamorte from './components/pages/Ogritodamorte';
+import Drama from './components/pages/Drama';
+import Kv1 from './components/pages/Kv1';
+import Osorrisodelaura from './components/pages/Osorrisodelaura';
+import Ocomitedd from './components/pages/Ocomitedd';
+import Fundingyou from './components/pages/Fundingyou';
+import Teste from './components/pages/Teste';
+import Fungindodopassado from './components/pages/Fugindodopassado';
+import Atravessia from './components/pages/Atravessia';
+import Aturmadamonica from './components/pages/Aturmadamonica';
+import Series from './components/pages/Series';
+import Playlistyou from './components/pages/Playlistyou';
+import Playcda from './components/pages/Playcda';
+import Playclass from './components/pages/Playclass';
+import Magali from './components/pages/Magali';
+import Monica from './components/pages/Monica';
+import Cebolinha from './components/pages/Cebolinha';
+import Playnetmovie from './components/pages/Playnetmovie';
+import Cascao from './components/pages/Cascao';
+import Milena from './components/pages/Milena';
+import Perfeicao from './components/pages/Perfeicao';
+import Segredo from './components/pages/Segredo';
+import Lama from './components/pages/Lama';
+import Asvampiras from './components/pages/Asvampiras';
+import Pagandobqmt from './components/pages/Pagandobqmt';
+import Aventura from './components/pages/Aventura';
+import Gossebump2 from './components/pages/Gossebump2';
+import Aeradogelo2 from './components/pages/Aeradogelo2';
+import Tresninjas from './components/pages/Tresninjas';
+import Ocavaleirod from './components/pages/Ocavaleirod';
+import Boltsc from './components/pages/Boltsc';
+import Gatodebotas from './components/pages/Gatodebotas';
+import Zero7cr from './components/pages/Zero7cr';
+import Pedrocoelho2 from './components/pages/Pedrocoelho2';
+import Eternos from './components/pages/Eternos';
+import Apenasus from './components/pages/Apenasus';
+import Operacoese from './components/pages/Operacoese';
+import Momentum from './components/pages/Momentum';
+import Trovao from './components/pages/Trovao';
+import Pokemon from './components/pages/Pokemon';
+import Centauro from './components/pages/Centauro';
+import Sereia2 from './components/pages/Sereia2';
+import Scooby from './components/pages/Scooby';
+import Reileao from './components/pages/Reileao';
+import Afilhadorei from './components/pages/Afilhadorei';
+import Otrapaceiro from './components/pages/Otrapaceiro';
+import Deencontrosam from './components/pages/Deencontrosam';
 
 
 
@@ -186,8 +247,75 @@ function App() {
         <Route path='/umnegocioderisco' component={Umnegocioderisco} />
         <Route path='/umpobretaoncsb' component={Umpobretaoncsb} />
         <Route path='/ascensaoeqdui' component={Ascensaoeqdui} />
-        <Route path='/aprincesa' component={Aprincesa} />
+        <Route path='/homemaranha2' component={Homemaranha2} />
+        <Route path='/supermurali' component={Supermurali} />
+        <Route path='/terror' component={Terror} />
+        <Route path='/suspense' component={Suspense} />
+        <Route path='/stretfp' component={Stretfp} />
+        <Route path='/codinome7' component={Codinome7} />
+        <Route path='/umjovememapuros' component={Umjovememapuros} />
+        <Route path='/tudopraficarcomela' component={Tudopraficarcomela} />
+        <Route path='/odoadordememorias' component={Odoadordememorias} />
+        <Route path='/atumbadodiabo' component={Atumbadodiabo} />
+        <Route path='/jogandocomoamor' component={Jogandocomoamor} />
+        <Route path='/loucamenteapaixonados' component={Loucamenteapaixonados} />
+        <Route path='/cadaveresardm' component={Cadaveresardm} />
+        <Route path='/agentesduplos' component={Agentesduplos} />
+        <Route path='/aslaminasdje' component={Aslaminasdje} />
+        <Route path='/ogritodamorte' component={Ogritodamorte} />
+        <Route path='/drama' component={Drama} />
+        <Route path='/kv1' component={Kv1} />
+        <Route path='/osorrisodelaura' component={Osorrisodelaura} />
+        <Route path='/ocomitedd' component={Ocomitedd} />
+        <Route path='/fudingyou' component={Fundingyou} />
+        <Route path='/teste' component={Teste} />
+        <Route path='/fugindodopassado' component={Fungindodopassado} />
+        <Route path='/atravessia' component={Atravessia} />
+        <Route path='/aturmadamonica' component={Aturmadamonica} />
+        <Route path='/series' component={Series} />
+        <Route path='/playlistyou' component={Playlistyou} />
+        <Route path='/playcda' component={Playcda} />
+        <Route path='/playclass' component={Playclass} />
+        <Route path='/magali' component={Magali} />
+        <Route path='/monica' component={Monica} />
+        <Route path='/cebolinha' component={Cebolinha} />
+        <Route path='/playnetmovie' component={Playnetmovie} />
+        <Route path='/cascao' component={Cascao} />
+        <Route path='/milena' component={Milena} />
+        <Route path='/perfeicao' component={Perfeicao} />
+        <Route path='/segredo' component={Segredo} />
+        <Route path='/lama' component={Lama} />
+        <Route path='/asvampiras' component={Asvampiras} />
+        <Route path='/pagandobqmt' component={Pagandobqmt} />
+        <Route path='/aventura' component={Aventura} />
+        <Route path='/gossebump2' component={Gossebump2} />
+        <Route path='/aeradogelo2' component={Aeradogelo2} />
+        <Route path='/tresninjas' component={Tresninjas} />
+        <Route path='/ocavaleirod' component={Ocavaleirod} />
+        <Route path='/boltsc' component={Boltsc} />
+        <Route path='/gatodebotas' component={Gatodebotas} />
+        <Route path='/zero7cr' component={Zero7cr} />
+        <Route path='/pedrocoelho2' component={Pedrocoelho2} />
+        <Route path='/eternos' component={Eternos} />
+        <Route path='/apenasus' component={Apenasus} />
+        <Route path='/operacoese' component={Operacoese} />
+        <Route path='/momentum' component={Momentum} />
+        <Route path='/trovao' component={Trovao} />
+        <Route path='/pokemon' component={Pokemon} />
+        <Route path='/centauro' component={Centauro} />
+        <Route path='/sereia2' component={Sereia2} />
+        <Route path='/scooby' component={Scooby} />
+        <Route path='/reileao' component={Reileao} />
+        <Route path='/afilhadorei' component={Afilhadorei} />
+        <Route path='/otrapaceiro' component={Otrapaceiro} />
+        <Route path='/deencontrosam' component={Deencontrosam} />
 
+        
+
+
+
+
+        
 
 
         
