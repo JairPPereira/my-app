@@ -12,7 +12,6 @@ import A2067 from './components/pages/2067';
 import Radios from './components/pages/Radios';
 import Ficcao from './components/pages/Ficcao';
 import Romance from './components/pages/Romance';
-import Acasadomedo from "./components/pages/Acasadomedo1";
 import Acertodecontas from "./components/pages/Acertodecontas";
 import Aparelhagens from "./components/pages/Aparelhagens";
 import Atualidade from './components/pages/Atualidade';
@@ -110,7 +109,6 @@ function App() {
         <Route path='/2067' component={A2067} />
         <Route path='/ficcao' component={Ficcao} />
         <Route path='/romance' component={Romance} />
-        <Route path='/acasadomedo' component={Acasadomedo} />
         <Route path='/acertodecontas' component={Acertodecontas} />
         <Route path='/aparelhagens' component={Aparelhagens} />
         <Route path='/atualidade' component={Atualidade} />
